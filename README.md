@@ -1,6 +1,14 @@
-# HashTableNew
+# Hash Table Visualizer
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.2.0.
+An interactive Angular application that demonstrates hash table data structure operations with visual feedback.
+
+## Features
+
+- **Interactive Hash Table Operations**: Insert, search, and delete key-value pairs
+- **Visual Representation**: See the hash table structure with buckets and collision handling
+- **Real-time Feedback**: Operation logs show the results of each action
+- **Collision Handling**: Uses chaining method to handle hash collisions
+- **Clean UI**: Modern, responsive interface built with Angular
 
 ## Development server
 
@@ -11,6 +19,14 @@ ng serve
 ```
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+
+## How to Use
+
+1. Enter a key and value in the input fields
+2. Click **Insert** to add the key-value pair to the hash table
+3. Enter a key and click **Search** to find its value
+4. Enter a key and click **Delete** to remove it from the hash table
+5. Watch the visual representation update and check the logs for operation results
 
 ## Code scaffolding
 
@@ -57,3 +73,7 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+---
+
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.2.0.
